@@ -1,0 +1,24 @@
+endpoint: "https://127.0.0.1:8000/"
+endpointCompression: GZIP
+geoscope:
+  - global
+disabled: false
+maintainer:
+  email: "somebody@example.com"
+openrtb:
+  version: 2.6
+  gpp-supported: true
+capabilities:
+  app:
+    mediaTypes:
+      - banner
+      - video
+      - native
+  site:
+    mediaTypes:
+      - banner
+      - video
+      - native
+userSync:
+  supports:
+    - redirect

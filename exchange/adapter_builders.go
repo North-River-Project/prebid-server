@@ -142,6 +142,8 @@ import (
 	"github.com/prebid/prebid-server/v2/adapters/mobfoxpb"
 	"github.com/prebid/prebid-server/v2/adapters/mobilefuse"
 	"github.com/prebid/prebid-server/v2/adapters/motorik"
+	"github.com/prebid/prebid-server/v2/adapters/mybar"
+	"github.com/prebid/prebid-server/v2/adapters/myfoo"
 	"github.com/prebid/prebid-server/v2/adapters/nextmillennium"
 	"github.com/prebid/prebid-server/v2/adapters/nobid"
 	"github.com/prebid/prebid-server/v2/adapters/oms"
@@ -402,6 +404,8 @@ func newAdapterBuilders() map[openrtb_ext.BidderName]adapters.Builder {
 		openrtb_ext.BidderRoulax:            roulax.Builder,
 		openrtb_ext.BidderRTBHouse:          rtbhouse.Builder,
 		openrtb_ext.BidderRubicon:           rubicon.Builder,
+		openrtb_ext.BidderMyFoo:             myfoo.Builder,
+		openrtb_ext.BidderMyBar:             mybar.Builder,
 		openrtb_ext.BidderSeedingAlliance:   seedingAlliance.Builder,
 		openrtb_ext.BidderSaLunaMedia:       salunamedia.Builder,
 		openrtb_ext.BidderScreencore:        screencore.Builder,
